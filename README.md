@@ -10,6 +10,7 @@
 
 **Updates:**
 
+* 17-06-2026: We released [our paper](https://arxiv.org/abs/2606.18195)
 * 15-06-2026: We released d-OPSD code.
 <!-- * 04-11-2025: We released [our paper](https://dllm-reasoning.github.io/media/preprint.pdf) and [project page](https://dllm-reasoning.github.io). Additionally, the SFT code was open-sourced. -->
 
