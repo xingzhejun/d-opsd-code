@@ -45,7 +45,7 @@ Finally, we give the real environment configuration we used for all experiments 
 
 All training code is inside the `d-opsd` directory. To reproduce the training, run:
 ```
-cd d-opsd-code
+cd d-opsd-code/d-opsd
 bash run/gsm/opsd.sh
 bash run/math/opsd.sh
 bash run/countdown/opsd.sh
@@ -59,7 +59,7 @@ Note: **Very important**, for A100 / H100 GPUs, the `BATCH_DIVIDE` in the script
 
 All evaluation code is inside the `eval` directory. First replace the checkpoint path in the scripts with your own, and run:
 ```
-cd d-opsd-code
+cd d-opsd-code/eval
 bash run/gsm/opsd.sh
 bash run/math/opsd.sh
 bash run/countdown/opsd.sh
