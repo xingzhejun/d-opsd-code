@@ -46,11 +46,11 @@ Finally, we give the real environment configuration we used for all experiments 
 
 All training code is inside the `d-opsd` directory. To reproduce the training, run:
 ```
-cd d-opsd-code/d-opsd
-bash run/gsm/opsd.sh
-bash run/math/opsd.sh
-bash run/countdown/opsd.sh
-bash run/sudoku/opsd.sh
+cd d-opsd-code
+bash d-opsd/run/gsm/opsd.sh
+bash d-opsd/run/math/opsd.sh
+bash d-opsd/run/countdown/opsd.sh
+bash d-opsd/run/sudoku/opsd.sh
 ```
 
 Note: **Very important**, for A100 / H100 GPUs, the `BATCH_DIVIDE` in the script should be set to 8 to prevent OOM. For B200, the existing setting `BATCH_DIVIDE=4` works well.
@@ -60,11 +60,11 @@ Note: **Very important**, for A100 / H100 GPUs, the `BATCH_DIVIDE` in the script
 
 All evaluation code is inside the `eval` directory. First replace the checkpoint path in the scripts with your own, and run:
 ```
-cd d-opsd-code/eval
-bash run/gsm/opsd.sh
-bash run/math/opsd.sh
-bash run/countdown/opsd.sh
-bash run/sudoku/opsd.sh
+cd d-opsd-code
+bash eval/run/gsm/opsd.sh
+bash eval/run/math/opsd.sh
+bash eval/run/countdown/opsd.sh
+bash eval/run/sudoku/opsd.sh
 ```
 
 This evaluation saves the generations. Second, replace the generation directory in `eval/parse_and_get_acc.py` with your owns, and run the following to obtain the accuracy:
