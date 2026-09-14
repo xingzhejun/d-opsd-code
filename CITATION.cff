@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying paper when using this research software."
+type: software
+title: "d-opsd-code research code"
+repository-code: "https://github.com/xingzhejun/d-opsd-code"
+authors:
+  - family-names: "Luo"
+    given-names: "Yifu"
+  - family-names: "Chen"
+    given-names: "Zeyu"
+  - family-names: "Wang"
+    given-names: "Haoyu"
+  - family-names: "Hu"
+    given-names: "Xinhao"
+  - family-names: "Zhang"
+    given-names: "Yuxuan"
+  - family-names: "Sha"
+    given-names: "Zhizhou"
+  - family-names: "Liu"
+    given-names: "Shiwei"
+preferred-citation:
+  type: article
+  title: "Learning from the Self-future: On-policy Self-distillation for dLLMs"
+  authors:
+    - family-names: "Luo"
+      given-names: "Yifu"
+    - family-names: "Chen"
+      given-names: "Zeyu"
+    - family-names: "Wang"
+      given-names: "Haoyu"
+    - family-names: "Hu"
+      given-names: "Xinhao"
+    - family-names: "Zhang"
+      given-names: "Yuxuan"
+    - family-names: "Sha"
+      given-names: "Zhizhou"
+    - family-names: "Liu"
+      given-names: "Shiwei"
+  year: 2026
+  journal: "arXiv preprint"
+  doi: "10.48550/arXiv.2606.18195"
+  url: "https://arxiv.org/abs/2606.18195"
