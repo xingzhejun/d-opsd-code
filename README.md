@@ -75,3 +75,7 @@ This evaluation saves the generations. Second, replace the generation directory 
 cd d-opsd-code/eval
 python parse_and_get_acc.py
 ```
+
+## Citation
+
+Machine-readable citation metadata is available in [CITATION.cff](CITATION.cff), with the [2026 arXiv preprint](https://arxiv.org/abs/2606.18195) as the preferred paper citation.
