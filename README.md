@@ -10,6 +10,7 @@
 
 **Updates:**
 
+* 25-09-2026: **Our paper is accepted to NeurIPS 2026!**
 * 17-08-2026: **Very important**, fix the trl bug and the warning format bug.
 * 17-06-2026: We released [our paper](https://arxiv.org/abs/2606.18195)
 * 15-06-2026: We released d-OPSD code.
